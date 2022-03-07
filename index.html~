@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome!</title>
+    <title>Welcome!</title>                           
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="cool-icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <link rel="icon" href="cool-icon.png">                    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -18,7 +18,6 @@
         <a href="projects.html">
             <div class="tab" style="transition: all 0.25s;">Projects</div>
         </a>
-        <div class="tab"></div>
         <a href="login.html">
             <div class="tab" style="transition: all 0.25s; text-decoration: underline">Log In</div>
         </a>
@@ -28,8 +27,8 @@
     <p> Welcome! </p>
     <p> My name is David and I am building my first website! </p>
     <p> Well actually, not really. </p>
-    <p> You see I tried to learn "programming" over summer in high school by going on FreeCodeCamp and learning
-        the stuff they had on there (which was all front-end stuff), but I found it extremely boring and
+    <p> You see I tried to learn "programming" over summer in high school by going on FreeCodeCamp and learning 
+        the stuff they had on there (which was all front-end stuff), but I found it extremely boring and 
         uninteresting. </p>
     <p> However, here I am taking a stuco on it! </p>
     <p> I'm pretty busy this semester, but hopefully I'll be able to build something really cool out of this
@@ -39,7 +38,7 @@
     <input type="text">
     <input type="submit">
     <p> That button doesn't do anything (yet). Sorry! </p>
-    <p> I plan for this website to be my little corner of the Internet once I finish building it (and as such
+    <p> I plan for this website to be my little corner of the Internet once I finish building it (and as such 
         plan on making it very homely). For now, please enjoy some random pictures! </p>
     <img src="[dbarajas]_design.pdf">
     <p> (a wireframe of what this website is supposed to look like once the stuco is finished) </p>
@@ -47,7 +46,7 @@
     <p> (me with my toilet paper stole for graduating in the first year of COVID) </p>
     <img src="ramone.jpg">
     <p> (a clip art of a sneaky detective) </p>
-
+    
 
     <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
 

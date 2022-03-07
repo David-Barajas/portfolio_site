@@ -19,7 +19,7 @@ body {
 }
 
 .nav-bar .tab {
-	width: 19.55%;
+	width: 19.9%;
 	line-height: 50px;
 	text-align: center;
 	color: white;
