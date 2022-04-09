@@ -28,6 +28,7 @@
     <input type="submit">
     <input type="text" placeholder="Password">
     <input type="submit">
+    <img src="http://david.net/IMG_1762.JPG" id="davidnet" class="img-style">
 
     <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
 

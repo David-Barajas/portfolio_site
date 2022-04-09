@@ -1,11 +1,21 @@
 body {
   margin: 0;
   padding: 0;
+  animation: darkify 600s linear 30s infinite normal;
 }
 
 .img-style {
 	width: 40%;
 	height: auto;
+}
+
+#davidnet {
+  display: block;
+}
+
+#davidnet:hover {
+  width: 0.1%;
+  transition: width 0.125s ease-in 5s;
 }
 
 .icon-style {
@@ -18,9 +28,10 @@ body {
 	height: 50px;
 	margin: 0px;
 	padding: 0px;
-	background: black;
+	background-color: black;
 	position: sticky;
 	top: 0;
+  animation: lightify 600s linear 30s infinite normal;
 }
 
 .nav-bar .tab {
@@ -36,6 +47,18 @@ body {
 
 .nav-bar .tab:hover {
 	background-color: gray;
+}
+
+@keyframes darkify {
+  0%   {background-color: white}
+  30%  {background-color: black}
+  100% {background-color: black}
+}
+
+@keyframes lightify {
+  0%   {background-color: black}
+  30%  {background-color: white}
+  100% {background-color: white}
 }
 
 .project {
@@ -55,6 +78,17 @@ body {
   background: gray;
   border-radius: 12px;
   margin-bottom: 1%;
+}
+
+#me {}
+
+#me:hover {
+  width: 250%;
+  margin-left: 0%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: cubic-Bezier(0, 1.96, 1, -1.05);
+  transition-delay: 5s;
 }
 
 .project> .title:active {

@@ -12,9 +12,7 @@
 <body>
     <div class="nav-bar">
         <div class="tab" id="overview">David's Site</div>
-        <a href="index.html">
-            <div class="tab" style="transition: all 0.25s;">Home</div>
-        </a>
+        <div class="tab" style="transition: all 0.25s;">Home</div>
         <a href="projects.html">
             <div class="tab" style="transition: all 0.25s;">Projects</div>
         </a>
@@ -24,11 +22,10 @@
         </a>
     </div>
 
-    <img src="me.jpeg" class="img-style" style="margin-left: 30%">
+    <img src="me.jpeg" id="me" class="img-style" style="margin-left: 30%">
     <p> Welcome! </p>
     <p> My name is David and I am building my first website! </p>
-    <p> I'm pretty busy this semester, but hopefully I'll be able to build something really cool out of this
-        once I get my stuff straight in homework and other classes/stuff. </p>
+    <p> I'm pretty busy this semester, but hopefully I'll be able to build something really cool out of this once I get my stuff straight in homework and other classes/stuff. </p>
     <p> I'm a college student studying electrical engineering btw, in case you were wondering. </p>
     <p> What's your name? </p>
     <input type="text">
@@ -38,7 +35,7 @@
         plan on making it very homely). For now, please enjoy some random pictures! </p>
     <img src="[dbarajas]_design.pdf">
     <p> (a wireframe of what this website is supposed to look like once the stuco is finished) </p>
-    <img src="me-2.jpg" class="img-style">
+    <img src="me-2.jpg" id="me" class="img-style">
     <p> (me with my toilet paper stole for graduating in the first year of COVID) </p>
     <img src="ramone.jpg">
     <p> (a clip art of a sneaky detective) </p>
