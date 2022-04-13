@@ -31,7 +31,7 @@ body {
 	background-color: black;
 	position: sticky;
 	top: 0;
-  animation: darkify 600s linear 30s infinite normal;
+  animation: lightify 600s linear 30s infinite normal;
 }
 
 .nav-bar .tab {
@@ -108,3 +108,26 @@ body {
   font-family: Courier New;
 }
 
+#my-submit1 {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(137,207,240);
+  font-family: serif;
+  display: block;
+  margin-bottom: 50px;
+}
+
+#my-submit2 {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(137,207,240);
+  font-family: serif;
+  display: block;
+  margin-bottom: 50px;
+}
+
+#home {}
+
+#projects {}
+
+#login {}

@@ -7,21 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="cool-icon.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="interactions.js"></script>
 </head>
 <body>
     <div class="nav-bar">
-        <div class="tab" id="overview">David's Site</div>
-        <a href="index.html">
-            <div class="tab" style="transition: all 0.25s;">Home</div>
-        </a>
-        <a href="projects.html">
-            <div class="tab" style="transition: all 0.25s;">Projects</div>
-        </a>
+        <div class="tab">David's Site</div>
+        <div id="home" class="tab" style="transition: all 0.25s;">Home</div>
+        <div id="projects" class="tab" style="transition: all 0.25s;">Projects</div>
         <div class="tab"></div>
-        <a href="login.html">
-            <div class="tab" style="transition: all 0.25s; text-decoration: underline">Log In</div>
-        </a>
+        <div id="login" class="tab" style="transition: all 0.25s; text-decoration: underline">Log In</div>
     </div>
 
     <img src="me.jpeg" id="me" class="img-style" style="margin-left: 30%">
@@ -41,10 +36,6 @@
     <p> (me with my toilet paper stole for graduating in the first year of COVID) </p>
     <img src="ramone.jpg">
     <p> (a clip art of a sneaky detective) </p>
-
-
-    <script type="text/javascript" src="interactions.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </body>
 </html>

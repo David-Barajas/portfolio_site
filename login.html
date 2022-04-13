@@ -12,23 +12,17 @@
 <body>
     <div class="nav-bar">
         <div class="tab" id="overview">David's Site</div>
-        <a href="index.html">
-            <div class="tab" style="transition: all 0.25s;">Home</div>
-        </a>
-        <a href="projects.html">
-            <div class="tab" style="transition: all 0.25s;">Projects</div>
-        </a>
+        <div class="tab" id="home" style="transition: all 0.25s;">Home</div>
+        <div class="tab" id="projects" style="transition: all 0.25s;">Projects</div>
         <div class="tab"></div>
-        <a href="login.html">
-            <div class="tab" style="transition: all 0.25s; text-decoration: underline">Log In</div>
-        </a>
+        <div class="tab" id="login" style="transition: all 0.25s; text-decoration: underline">Log In</div>
     </div>
 
-    <img src="http://david.net/IMG_1762.JPG" id="davidnet" class="img-style">
+    <img src="http://david.net/IMG_1762.JPG" id="davidnet" class="img-style" style="padding-bottom: 50px">
     <input type="text" placeholder="Username">
-    <input type="submit">
+    <div class="my-submit"> Submit </div>
     <input type="text" placeholder="Password">
-    <input type="submit">
+    <div class="my-submit"> Submit </div>
 
     <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
 
