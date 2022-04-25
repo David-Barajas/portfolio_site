@@ -13,11 +13,6 @@ body {
   display: block;
 }
 
-#davidnet:hover {
-  width: 0.1%;
-  transition: width 0.125s ease-in 5s;
-}
-
 .icon-style {
 	width: 4%;
 	height: auto;
@@ -82,19 +77,6 @@ body {
 
 #me {}
 
-#me:hover {
-  width: 250%;
-  margin-left: 0%;
-  transition-property: width;
-  transition-duration: 3s;
-  transition-timing-function: cubic-Bezier(0, 1.96, 1, -1.05);
-  transition-delay: 5s;
-}
-
-.project> .title:active {
-  background: darkgray;
-}
-
 .description {
   text-align: center;
   padding: 1%;
@@ -108,16 +90,7 @@ body {
   font-family: Courier New;
 }
 
-#my-submit1 {
-  width: 50px;
-  height: 20px;
-  background-color: rgb(137,207,240);
-  font-family: serif;
-  display: block;
-  margin-bottom: 50px;
-}
-
-#my-submit2 {
+.my-submit {
   width: 50px;
   height: 20px;
   background-color: rgb(137,207,240);

@@ -1,7 +1,6 @@
 $(document).ready( function() {
   $("#home").click( function() {
     window.open("index.html", "_blank");
-
   });
   $("#projects").click( function() {
     window.open("projects.html", "_blank");
@@ -13,4 +12,22 @@ $(document).ready( function() {
     $(this).css("background-color", "white");
     $(this).css("display", "none");
   });
+  $("#me").hover( function () {
+    $(this).animate({width: "250%"}, 3000);
+  });
+  $("#davidnet").hover( function () {
+    $(this).animate({width: "0.1%"}, 125000);
+  });
+  $("#searchbar").hover( function () {
+    $(this).attr("placeholder", "or not?");
+  });
+  $("#searchbar").keyup( function () {
+    var k = $(this).val();
+    loadData(k);
+  });
+  function loadData( str ) {
+    if (str.length > 5) {
+      (function () {window.location.href = "https://youtu.be/kdcIt_oLHxY";})();
+    }
+  }
 });

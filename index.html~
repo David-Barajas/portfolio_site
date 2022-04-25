@@ -13,10 +13,12 @@
 <body>
     <div class="nav-bar">
         <div class="tab">David's Site</div>
-        <div id="home" class="tab" style="transition: all 0.25s;">Home</div>
-        <div id="projects" class="tab" style="transition: all 0.25s;">Projects</div>
-        <div class="tab"></div>
-        <div id="login" class="tab" style="transition: all 0.25s; text-decoration: underline">Log In</div>
+        <div id="home" class="tab">Home</div>
+        <div id="projects" class="tab">Projects</div>
+        <div class="tab">
+          <input type="password" placeholder="Search the web!">
+        </div>
+        <div id="login" class="tab" style="text-decoration: underline">Log In</div>
     </div>
 
     <img src="me.jpeg" id="me" class="img-style" style="margin-left: 30%">
