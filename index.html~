@@ -16,7 +16,7 @@
         <div id="home" class="tab">Home</div>
         <div id="projects" class="tab">Projects</div>
         <div class="tab">
-          <input type="password" placeholder="Search the web!">
+          <input id="searchbar" type="password" placeholder="Search the web!">
         </div>
         <div id="login" class="tab" style="text-decoration: underline">Log In</div>
     </div>
@@ -34,7 +34,7 @@
         plan on making it very homely). For now, please enjoy some random pictures! </p>
     <img src="[dbarajas]_design.pdf">
     <p> (a wireframe of what this website is supposed to look like once the stuco is finished) </p>
-    <img src="me-2.jpg" id="me" class="img-style">
+    <img src="me-2.jpg" id="me-2" class="img-style">
     <p> (me with my toilet paper stole for graduating in the first year of COVID) </p>
     <img src="ramone.jpg">
     <p> (a clip art of a sneaky detective) </p>

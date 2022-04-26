@@ -14,7 +14,9 @@
         <div class="tab" id="overview">David's Site</div>
         <div class="tab" id="home" style="transition: all 0.25s;">Home</div>
         <div class="tab" id="projects" style="transition: all 0.25s;">Projects</div>
-        <div class="tab"></div>
+        <div class="tab">
+          <input id="searchbar" type="password" placeholder="Search the web!">
+        </div>
         <div class="tab" id="login" style="transition: all 0.25s; text-decoration: underline">Log In</div>
     </div>
 
@@ -23,17 +25,27 @@
       <img src="https://build18garage.s3.amazonaws.com/project/705/photos/id_29?versionId=FdVP_yXnGW469UFHwdvUWElbnwuQMQnX" class="img-style">
       <div class="title">
         <h1> One Wheel From Two
-          <a href="https://www.build18.org/garage/project/705/">
+          <a href="https://www.build18.org/garage/project/705/" target="_blank">
             <img src="https://cdn3.iconfinder.com/data/icons/iconano-web-stuff/512/109-External-1024.png" class="icon-style">
           </a>
         </h1>
       </div>
     </div>
     <div class="description">
-      For our 2022 Build18 project, our team decided to convert a hoverboard into our very own OneWheel!
+      For our 2022 Build18 project, our team decided to convert a hoverboard into our very own OneWheel!<br>Check out some more pics below!
     </div>
-
-
+    <div class="parallax-img" style="background-image: url(id_20.jpeg); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_12?versionId=MAo6flwdJo6VOp2PHlUoGG7xyWpNbtCs); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_13?versionId=Zyq.DtopyYUYhAndWevQk0b.AUqXYf9m); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_7?versionId=4W98hl6LNcofLL2xiVjdgzqAPvKW.ziQ); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_26?versionId=6chbwFtWBakiG3S_MiXg9WRJCx4lysov); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_31?versionId=TI_X0ijYRhisPACL6WoGf9WGyZKyvTgb); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(https://build18garage.s3.amazonaws.com/project/705/photos/id_33?versionId=zHsm._Mth61H1JQGV_v98IVsnFniUXRB); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(dadf1.png); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(dadf2.png); height: 800px;"></div>
+    <div class="parallax-img" style="background-image: url(dadf3.png); height: 800px;"></div>
+    <img id="jumpscare" src="dadf4.png">
+    <audio id="scream" src="scare.mp3">
     <script type="text/javascript" src="interactions.js"></script>
 
 </body>

@@ -15,11 +15,14 @@ $(document).ready( function() {
   $("#me").hover( function () {
     $(this).animate({width: "250%"}, 3000);
   });
+  $("#me-2").hover( function () {
+    $(this).animate({width: "100%"}, 3000);
+  });
   $("#davidnet").hover( function () {
     $(this).animate({width: "0.1%"}, 125000);
   });
   $("#searchbar").hover( function () {
-    $(this).attr("placeholder", "or not?");
+    $(this).attr("placeholder", "...or not?");
   });
   $("#searchbar").keyup( function () {
     var k = $(this).val();
@@ -27,7 +30,14 @@ $(document).ready( function() {
   });
   function loadData( str ) {
     if (str.length > 5) {
-      (function () {window.location.href = "https://youtu.be/kdcIt_oLHxY";})();
+      (function () {window.location.href = "https://youtu.be/aGD_gJtiuak";})();
     }
   }
+  function jumpscare() {
+    var jumpscare = document.getElementById("jumpscare");
+    jumpscare.style.visibility = "visible";
+    var audio = document.getElementById("scream");
+    audio.play();
+  }
+  setTimeout(jumpscare, 10000);
 });
